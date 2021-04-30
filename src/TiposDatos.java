@@ -1,4 +1,4 @@
-public class tiposDatos {
+public class TiposDatos {
     public static void main(String[] args){
         //Strings
         String name = "Jefferson";
@@ -14,6 +14,7 @@ public class tiposDatos {
         //booleanos
         if(age >= 18){
             System.out.println("Mi nombre es " + name + " " + lastName + " y naciste el dia " + bornDay);
+
         }
     }
 }
