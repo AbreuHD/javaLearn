@@ -12,6 +12,9 @@ public class TiposDatos {
         bornDay = 27;
 
         //booleanos
+        boolean idk;
+        idk = true;
+
         if(age >= 18){
             System.out.println("Mi nombre es " + name + " " + lastName + " y naciste el dia " + bornDay);
 
