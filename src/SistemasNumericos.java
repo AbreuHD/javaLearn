@@ -1,6 +1,10 @@
+import javax.swing.*;
+
 public class SistemasNumericos {
     public static void main(String[] args){
-        int numeroDecimal = 250;
+
+        String numeroSTR = JOptionPane.showInputDialog(null,"Ingrese un numero entero");
+        int numeroDecimal = Integer.parseInt(numeroSTR);
         System.out.println("numeroDecimal = " + numeroDecimal);
 
         System.out.println("numero binario de " + numeroDecimal + " = " + Integer.toBinaryString(numeroDecimal));
