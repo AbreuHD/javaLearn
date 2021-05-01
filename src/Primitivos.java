@@ -16,6 +16,10 @@ public class Primitivos {
         System.out.println("numLong = " + numLong);
         System.out.println("tipo long max " + Long.MAX_VALUE);
         System.out.println("tipo long min " + Long.MIN_VALUE);
-        
+
+        float numFloat = 1955e3f;
+        float numNeF = -5895e4f;
+        System.out.println("+ " + numFloat + " - // " + numNeF);
+
     }
 }
