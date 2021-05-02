@@ -16,5 +16,13 @@ public class StringT {
         
         logicPiece = str1.equalsIgnoreCase(aqw);
         System.out.println("logicPiece = " + logicPiece);
+
+        String strLamba = str1;
+        strLamba.transform(c -> {
+            return c + " no es igual a " + aqw;
+        });
+        System.out.println("strLamba = " + strLamba);
+
+        System.out.println(strLamba.replace("a", "A"));
     }
 }
