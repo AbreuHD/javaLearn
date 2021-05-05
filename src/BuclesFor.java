@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class BuclesGG {
+public class BuclesFor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -12,5 +12,6 @@ public class BuclesGG {
             ggbro[i] = sc.nextInt();
             System.out.println("ggbro[i] = " + ggbro[i]);
         }
+
     }
 }
