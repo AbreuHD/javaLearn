@@ -13,10 +13,12 @@ public class BuscarPalabrasEnUnString {
         char[] arrFrase = frase.toCharArray();
         char[] arrSearch = searchFrase.toCharArray();
 
-        for (int ia = 0 ; ia < frase.length() ; ia++){
+        for (int ia = 0 ; ia < (frase.length() * frase.length()) ; ia++){
             for (int i = 0 ; i < arrSearch.length ; i++) {
-                if(arrFrase[ia] == arrSearch[i]){
-                    System.out.println(ia + " y " + i + " Son iguales");
+                for (int idk = 0 ; idk < frase.length() ; idk++){
+                    if(arrFrase[idk] == arrSearch[i]){
+                        System.out.println(idk + " y " + i + " Son iguales");
+                    }
                 }
             }
         }
