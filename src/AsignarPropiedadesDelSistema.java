@@ -1,5 +1,4 @@
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.Properties;
 
 public class AsignarPropiedadesDelSistema {
@@ -10,7 +9,9 @@ public class AsignarPropiedadesDelSistema {
             p.load(archivo);
             p.setProperty("config.animal.nombre", "Napoleon");
             System.setProperties(p);
-            System.getProperties().list(System.out);
+//          System.getProperties().list(System.out);
+            p.list(System.out);
+            System.out.println(p.getProperty("config.animal.nombre"));
 
         } catch (Exception e){
             System.out.println("no existe el archivo = " + e);
